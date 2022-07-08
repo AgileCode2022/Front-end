@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+    
+
+}

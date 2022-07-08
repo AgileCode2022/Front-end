@@ -1,15 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-*{
-    background-color: black;
-    color: aliceblue;
+
+body{
+    background-color: rgb(139, 139, 139);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+header span{
+    align-self: flex-end;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
 
 .logo{
     width: 150px;
     height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
+.lupa{
+    margin-right: 50px;
+}
+
+.ingreso{
+    margin-right: 20px;
+}
+
+.iconoLupaIngreso{
+    height: 30px;
+    width: 30px;
+}
+
+.buscar{
+    
+    align-items: flex-start;
+}
+
+nav{
+    color: white;
+}
+
 
 .iconos{
     width: 40px;
@@ -23,7 +58,44 @@ ul{
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    
-    
+}
 
+ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+ul li p{
+    align-self: center;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.main img{
+    width: 300px;
+    height: 100vh;
+    justify-content: space-around;
+    object-fit: cover;    
+}
+
+.main p{
+    margin: 50px;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
 }

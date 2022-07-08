@@ -99,6 +99,37 @@ ul li p{
     margin: 50px;
 }
 
+.contenido ul{
+    margin-top: 30px;
+}
+
+.contenido ul li{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+
+.contenido ul li p{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calendario{
+    margin-right: 50px;
+}
+
 footer{
     background-color: black;
     padding: 50px;

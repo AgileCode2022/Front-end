@@ -137,6 +137,10 @@ ul li p{
 .calendario{
     margin-right: 50px;
 }
+.recuadroCentral{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 footer{
     background-color: black;
